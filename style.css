@@ -1,0 +1,54 @@
+h1 ,h2 {
+    color: white;
+}
+img{
+    border:1px solide white;
+    border-radius: 50%;
+}
+body{
+    background-color:#90969b;
+    color: white;
+}
+.dim {
+    color: #90969b
+    border: 1px; solid white ;
+    padding: 1rem ;
+    margin: 1rem ;
+    border-radius: 1rem ;
+}
+.styled-table {
+    border-collapse: collapse ;
+    width: 100%;
+    max-width: 600px; /* Adjust this to your desir
+    margin: 0 auto; /* center the table */
+    font-family: Arial, sans-serif;
+    background-color: #16181c; /* bac
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.styled-table td {
+    text-align: left;
+    padding: 10px;
+}
+
+
+.bio{
+    background-color: #333; /* dark background color */
+    color: #fff; /*light text color */
+    padding: 20px; /* add padding for spacing */
+    list-style-type: none; /* remove default list bullet points */
+}
+
+.bio li {
+    margin-bottom: 10px; /*add margin between list items */
+    transition: background-color 0.2; /* smoth transition for background */
+}
+.bio li:hover {
+    background-color: #555; /* dark background color on hover */
+}
